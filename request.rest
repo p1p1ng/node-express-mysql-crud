@@ -1,0 +1,31 @@
+### 1. GET Semua User
+GET http://localhost:5000/api/users
+Content-Type: application/json
+
+### 2. GET User by ID
+GET http://localhost:5000/api/users/1
+Content-Type: application/json
+
+### 3. POST Tambah User
+POST http://localhost:5000/api/users
+Content-Type: application/json
+
+{
+  "name": "Siswa 4",
+  "email": "siswa@gmail.com",
+  "age": 25
+}
+
+### 4. PUT Update User
+PUT http://localhost:5000/api/users/1
+Content-Type: application/json
+
+{
+  "name": "Firman",
+  "email": "admin@gmail.com",
+  "age": 30
+}
+
+### 5. DELETE Hapus User
+DELETE http://localhost:5000/api/users/1
+Content-Type: application/json
